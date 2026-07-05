@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Parquet on Ben O&#39;Rourke</title>
+		<link>http://localhost:1313/tags/parquet/</link>
+		<description>Recent content in Parquet on Ben O&#39;Rourke</description>
+		<generator>Hugo</generator>
+		<language>en-GB</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/parquet/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Arrow vs Parquet: When to Use Which</title>
+				<link>http://localhost:1313/engineering/arrow-vs-parquet/</link>
+				<pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/engineering/arrow-vs-parquet/</guid>
+				<description>&lt;h2 id=&#34;the-short-answer&#34;&gt;The short answer&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Parquet&lt;/strong&gt; is a storage format — it&amp;rsquo;s designed to sit on disk (or S3) efficiently.&lt;br&gt;&#xA;&lt;strong&gt;Arrow&lt;/strong&gt; is an in-memory format — it&amp;rsquo;s designed to move data between systems without copying.&lt;/p&gt;&#xA;&lt;p&gt;You&amp;rsquo;ll often use both: read a Parquet file into an Arrow table, process it in memory, write it back as Parquet.&lt;/p&gt;&#xA;&lt;h2 id=&#34;parquet&#34;&gt;Parquet&lt;/h2&gt;&#xA;&lt;p&gt;Parquet is a columnar file format. Because it stores data column-by-column rather than row-by-row, it compresses extremely well and lets query engines skip entire columns they don&amp;rsquo;t need.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

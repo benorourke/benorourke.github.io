@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>English on Ben O&#39;Rourke</title>
+		<link>http://localhost:1313/cuisines/english/</link>
+		<description>Recent content in English on Ben O&#39;Rourke</description>
+		<generator>Hugo</generator>
+		<language>en-GB</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/cuisines/english/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Proper Beans on Toast</title>
+				<link>http://localhost:1313/recipes/english/beans-on-toast/</link>
+				<pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/recipes/english/beans-on-toast/</guid>
+				<description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1 tin Heinz baked beans&lt;/li&gt;&#xA;&lt;li&gt;2 thick slices white bread (Warburtons or similar)&lt;/li&gt;&#xA;&lt;li&gt;Salted butter&lt;/li&gt;&#xA;&lt;li&gt;Optional: a splash of Worcestershire sauce, pinch of smoked paprika&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;method&#34;&gt;Method&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Toast the bread. While still hot, butter generously — the butter should melt into the bread completely.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Heat the beans in a small saucepan on medium-low. Stir occasionally. If using Worcestershire sauce, add it now.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;When the beans are steaming (not boiling — boiling makes them watery), pour over the toast.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
