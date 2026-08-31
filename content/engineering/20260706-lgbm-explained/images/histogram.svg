@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" font-family="monospace" font-size="12">
+  <rect width="560" height="300" fill="#f9f9f9"/>
+
+  <!-- Title -->
+  <text x="280" y="24" text-anchor="middle" fill="#333" font-size="13" font-weight="bold">Continuous feature → histogram bins → evaluate splits</text>
+
+  <!-- Y axis -->
+  <line x1="62" y1="45" x2="62" y2="245" stroke="#333" stroke-width="2"/>
+  <!-- X axis -->
+  <line x1="62" y1="245" x2="505" y2="245" stroke="#333" stroke-width="2"/>
+
+  <!-- Bars (10 bins, gradient sums, roughly bell-shaped) -->
+  <rect x="65"  y="225" width="40" height="20"  fill="#5b8dd9"/>
+  <rect x="108" y="208" width="40" height="37"  fill="#5b8dd9"/>
+  <rect x="151" y="180" width="40" height="65"  fill="#5b8dd9"/>
+  <rect x="194" y="140" width="40" height="105" fill="#5b8dd9"/>
+  <rect x="237" y="85"  width="40" height="160" fill="#5b8dd9"/>
+  <rect x="280" y="95"  width="40" height="150" fill="#5b8dd9"/>
+  <rect x="323" y="145" width="40" height="100" fill="#5b8dd9"/>
+  <rect x="366" y="185" width="40" height="60"  fill="#5b8dd9"/>
+  <rect x="409" y="210" width="40" height="35"  fill="#5b8dd9"/>
+  <rect x="452" y="228" width="40" height="17"  fill="#5b8dd9"/>
+
+  <!-- Bin boundary ticks -->
+  <line x1="108" y1="245" x2="108" y2="250" stroke="#333" stroke-width="1"/>
+  <line x1="151" y1="245" x2="151" y2="250" stroke="#333" stroke-width="1"/>
+  <line x1="194" y1="245" x2="194" y2="250" stroke="#333" stroke-width="1"/>
+  <line x1="237" y1="245" x2="237" y2="250" stroke="#333" stroke-width="1"/>
+  <line x1="280" y1="245" x2="280" y2="250" stroke="#333" stroke-width="1"/>
+  <line x1="323" y1="245" x2="323" y2="250" stroke="#333" stroke-width="1"/>
+  <line x1="366" y1="245" x2="366" y2="250" stroke="#333" stroke-width="1"/>
+  <line x1="409" y1="245" x2="409" y2="250" stroke="#333" stroke-width="1"/>
+  <line x1="452" y1="245" x2="452" y2="250" stroke="#333" stroke-width="1"/>
+
+  <!-- Best split line between bin 5 and 6 at x=280 -->
+  <line x1="280" y1="42" x2="280" y2="248" stroke="#e05c5c" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="285" y="60" fill="#e05c5c" font-size="11">best split</text>
+  <text x="285" y="73" fill="#e05c5c" font-size="11">threshold</text>
+
+  <!-- Left / right region labels -->
+  <text x="172" y="270" text-anchor="middle" fill="#555" font-size="11">≤ threshold</text>
+  <text x="390" y="270" text-anchor="middle" fill="#555" font-size="11">&gt; threshold</text>
+
+  <!-- Y axis label -->
+  <text x="14" y="150" text-anchor="middle" fill="#555" font-size="11" transform="rotate(-90,14,150)">gradient sum</text>
+
+  <!-- X axis label -->
+  <text x="283" y="292" text-anchor="middle" fill="#555" font-size="11">feature value (binned, B=10 shown)</text>
+</svg>
