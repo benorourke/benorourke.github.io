@@ -11,6 +11,10 @@ paginate = 10
   readme = true
   mode = "auto"  # auto, dark, or light
 
+  # Sections shown in the front-page post list. Recipes still live at
+  # /recipes/ and in the nav — just not surfaced on the homepage.
+  mainSections = ["engineering"]
+
   [[params.social]]
     name = "GitHub"
     url = "https://github.com/benorourke"
