@@ -1,0 +1,7 @@
+# Hugo build output — CI builds this fresh on every deploy (see .github/workflows/deploy.yml)
+/public/
+.hugo_build.lock
+
+# Editor / OS
+.idea/
+.DS_Store
